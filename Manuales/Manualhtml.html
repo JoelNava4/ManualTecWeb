@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual html</title>
+    <link rel="icon" href="../Imagenes/html.png">
+    <style>
+        th{
+            background-color: green;
+            color: white;
+        }
+        td{
+            background-color: black;
+            color: white;
+        }
+        body{
+            background-color: orange;
+        }
+        #ElementosPricipales img{
+            height: auto;
+            width: 500px;
+        }
+        .ElementosComplementarios img{
+            height: auto;
+            width: 500px;
+        }
+        a{
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html" target="_self">Inicio</a></li>
+                <li><a href="Manualcss.html" target="_self">Manual CSS</a></li>
+                <li><a href="Manualjs.html" target="_self">Manual Js</a></li>
+            </ul>
+        </nav>
+        <h1>Bienvenido al Manual de HTML!!</h1>
+    </header>
+    <main>
+        <article>
+            <section id="ElementosPricipales">
+                <h2>Elementos Principales</h2>
+                <div class="navegaciónLocal">
+                    <a href="#ElementosGenericos">Ir a elementos Genericos</a><br>
+                    <a href="#ElementosSemanticos">Ir a elementos Semanticos</a><br>
+                    <a href="#ElementosTexto">Ir a elementos de Manejo de texto</a><br>
+                    <a href="#ElementosComplementarios">Ir a elementos Complementarios</a><br>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col"><b>Elemento</b></th>
+                            <th scope="col"><b>Descripción</b></th>
+                            <th scope="col"><b>Ejemplo</b></th>
+                            <th scope="col"><b>Informacion Adicional</b></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&lt;html&gt;</td>
+                            <td>La etiqueta html es la raiz de todo el documento, es el elemento de nivel
+                                superior por ende todas las demas etiquetas son decendientes de ella. </td>
+                            <td>
+                                <img src="../Imagenes/EjemploHtml.png" alt="Ejemplo etiqueta html" title="Ejemplo etiqueta html">
+                            </td>
+                            <td>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html" target="_blank">Más información</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;head&gt;</td>
+                            <td>Es un elemento que contiene a información legible por la maquina sobre el documento html,
+                                como estilo, titulo y scripts.
+                            </td>
+                            <td>
+                                <img src="../Imagenes/ejemploHead.png" alt="Ejemplo etiqueta head" title="Ejemplo etiqueta head">
+                            </td>
+                            <td>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head" target="_blank">Mas Información</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;body&gt;</td>
+                            <td>Es un elemento que contiene el contenido del documento html, solo puede existir uno
+                                por documento
+                            </td>
+                            <td>
+                                <img src="../Imagenes/EjemploBody.png" alt="Ejemplo etiqueta body" title="Ejemplo etiqueta body">
+                            </td>
+                            <td>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body" target="_blank">Mas Información</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="ElementosGenericos">
+                <h2>Elementos Genericos</h2>
+                <div class="navegaciónLocal">
+                    <a href="#ElementosPricipales">Ir a elementos Principales</a><br>
+                    <a href="#ElementosSemanticos">Ir a elementos Semanticos</a><br>
+                    <a href="#ElementosTexto">Ir a elementos de Manejo de texto</a><br>
+                    <a href="#ElementosComplementarios">Ir a elementos Complementarios</a><br>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col"><b>Elemento</b></th>
+                            <th scope="col"><b>Descripción</b></th>
+                            <th scope="col"><b>Ejemplo</b></th>
+                            <th scope="col"><b>Informacion Adicional</b></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&lt;div&gt;</td>
+                            <td>Es un contenedor generico en bloque que no afecta como tal al diseño hasta
+                                que se le pueda agregar un estilo con css </td>
+                            <td>
+                                <img src="../Imagenes/ejemploDiv.png" alt="Ejemplo etiqueta div" title="Ejemplo etiqueta div">
+                            </td>
+                            <td>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div" target="_blank">Más información</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;span&gt;</td>
+                            <td>Es un contenedor generico en linea que no afecta como tal al diseño, se parece
+                                al elemeto div con la diferencia de que ese elemento es en bloque </td>
+                            <td>
+                                <img src="../Imagenes/ejemploSpan.png" alt="Ejemplo etiqueta span" title="Ejemplo etiqueta span">
+                            </td>
+                            <td>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span" target="_blank">Más información</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="ElementosSemanticos">
+                <h2>Elementos Semanticos</h2>
+                <div class="navegaciónLocal">
+                    <a href="#ElementosPricipales">Ir a elementos Principales</a><br>
+                    <a href="#ElementosGenericos">Ir a elementos Genericos</a><br>
+                    <a href="#ElementosTexto">Ir a elementos de Manejo de texto</a><br>
+                    <a href="#ElementosComplementarios">Ir a elementos Complementarios</a><br>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col"><b>Elemento</b></th>
+                            <th scope="col"><b>Descripción</b></th>
+                            <th scope="col"><b>Ejemplo</b></th>
+                            <th scope="col"><b>Informacion Adicional</b></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&lt;header&gt;</td>
+                            <td>Es un elemento semantico que representa la parte introductoria de la 
+                                pagina web, dentro de ella por ejemplo puede ir logos</td>
+                            <td>
+                                <img src="../Imagenes/EjemploHeader.png" alt="Ejemplo etiqueta header" title="Ejemplo etiqueta header">
+                            </td>
+                            <td>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header" target="_blank">Más información</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;article&gt;</td>
+                            <td>Es un elemento que encierra un contenido independiente al de la pagina
+                                web</td>
+                            <td>
+                                <img src="../Imagenes/EjemploArticle.png" alt="Ejemplo etiqueta article" title="Ejemplo etiqueta article">
+                            </td>
+                            <td>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article" target="_blank">Más información</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;section&gt;</td>
+                            <td>Es un elemento que encierra un contenido en especifico puede servir para 
+                                dividir el contenido de un article</td>
+                            <td>
+                                <img src="../Imagenes/EjemploSection.png" alt="Ejemplo etiqueta section" title="Ejemplo etiqueta section">
+                            </td>
+                            <td>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" target="_blank">Más información</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;nav&gt;</td>
+                            <td>Es un elemento que cuyo proposito es proporcionar enlaces 
+                                de navegación dentro del mismo documento o a otros documentos, no todos 
+                                los enlaces deben ir obligatoriamente en este elemento
+                            </td>
+                            <td>
+                                <img src="../Imagenes/EjemploNav.png" alt="Ejemplo etiqueta nav" title="Ejemplo etiqueta nav">
+                            </td>
+                            <td>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav" target="_blank">Más información</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;aside&gt;</td>
+                            <td>Es un elemento que dentro de ella contiene contenido indirectamente relacionada con el contenido
+                                principal, dentro de ella puede ir publicidad
+                            </td>
+                            <td>
+                                <img src="../Imagenes/EjemploAside.png" alt="Ejemplo etiqueta aside" title="Ejemplo etiqueta aside">
+                            </td>
+                            <td>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside" target="_blank">Más información</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;footer&gt;</td>
+                            <td>Es un elemento que representa el pie de pagina para un ancestro como article, section, en caso de no 
+                                existir esos ancestros puede ser el pie de pagina del body, su contenido puede ser la información de
+                                un autor o enlaces a documentos relacionados 
+                            </td>
+                            <td>
+                                <img src="../Imagenes/EjemploFooter.png" alt="Ejemplo etiqueta footer" title="Ejemplo etiqueta footer">
+                            </td>
+                            <td>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer" target="_blank">Más información</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;main&gt;</td>
+                            <td>Es un elemento que contiene lo principal de un documento, solo se puede tener uno por documento,
+                                sus elemtos padre pueden ser body, html, div y form
+                            </td>
+                            <td>
+                                <img src="../Imagenes/EjemploMain.png" alt="Ejemplo etiqueta main" title="Ejemplo etiqueta main">
+                            </td>
+                            <td>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main" target="_blank">Más información</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="ElementosTexto">
+                <table>
+                    <h2>Elementos de Manejo de texto</h2>
+                    <div class="navegaciónLocal">
+                        <a href="#ElementosPricipales">Ir a elementos Principales</a><br>
+                        <a href="#ElementosGenericos">Ir a elementos Genericos</a><br>
+                        <a href="#ElementosSemanticos">Ir a elementos Semanticos</a><br>
+                        <a href="#ElementosComplementarios">Ir a elementos Complementarios</a><br>
+                    </div>
+                    <thead>
+                        <tr>
+                            <th scope="col"><b>Elemento</b></th>
+                            <th scope="col"><b>Descripción</b></th>
+                            <th scope="col"><b>Ejemplo</b></th>
+                            <th scope="col"><b>Informacion Adicional</b></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&lt;h1&gt;--&lt;h6&gt;</td>
+                            <td>Representan seis niveles de encabezados, su uso muestran una jerarquia en la
+                                pagina web
+                            </td>
+                            <td>
+                                <img src="../Imagenes/ejemploH.png" alt="Ejemplo etiqueta h" title="Ejemplo etiqueta h">
+                            </td>
+                            <td>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">Más información</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;title&gt;</td>
+                            <td>Define el titulo del documento se puede mostrar en la barra de un navegador en la 
+                                pestaña de la pagina
+                            </td>
+                            <td>
+                                <img src="../Imagenes/title.png" alt="Ejemplo etiqueta title" title="Ejemplo etiqueta title">
+                            </td>
+                            <td>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title" target="_blank">Más información</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;p&gt;</td>
+                            <td>Con este elemento podemos definir parrafos que sirven para poder dividir un 
+                                texto grande
+                            </td>
+                            <td>
+                                <img src="../Imagenes/EjemploP.png" alt="Ejemplo etiqueta p" title="Ejemplo etiqueta p">
+                            </td>
+                            <td>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" target="_blank">Más información</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;br&gt;</td>
+                            <td>Elemento que nos permite realizar un salto de linea, no debe usarse para generar espacio entre bloques
+                            </td>
+                            <td>
+                                <img src="../Imagenes/EjemploBr.png" alt="Ejemplo etiqueta br" title="Ejemplo etiqueta br">
+                            </td>
+                            <td>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br" target="_blank">Más información</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;hr&gt;</td>
+                            <td>Elemento que nos permite realizar un transicion visual entre parrafos
+                            </td>
+                            <td>
+                                <img src="../Imagenes/EjemploHr.png" alt="Ejemplo etiqueta hr" title="Ejemplo etiqueta hr">
+                            </td>
+                            <td>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr" target="_blank">Más información</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;wbr&gt;</td>
+                            <td>Elemento que le indica razonablemente donde podria introducir un salto de linea
+                            </td>
+                            <td>
+                                <img src="../Imagenes/EjemploWbr.png" alt="Ejemplo etiqueta wbr" title="Ejemplo etiqueta wbr">
+                            </td>
+                            <td>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr" target="_blank">Más información</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;sup&gt;</td>
+                            <td>Elemento permite declarar superindices, podemos abrebiar numero ordinales gracia al
+                                elemento
+                            </td>
+                            <td>
+                                <img src="../Imagenes/EjemploSup.png" alt="Ejemplo etiqueta sup" title="Ejemplo etiqueta sup">
+                            </td>
+                            <td>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup" target="_blank">Más información</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;sub&gt;</td>
+                            <td>Se utiliza para representar texto subíndice, que generalmente se encuentra debajo de la línea de texto normal.</td>
+                            <td><img src="../Imagenes/EjemploSub.png" alt="Ejemplo etiqueta sub" title="Ejemplo etiqueta sub"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;strong&gt;</td>
+                            <td>Se utiliza para dar énfasis al texto y generalmente se muestra en negrita.
+                            </td>
+                            <td>
+                                <img src="../Imagenes/EjemploStrong.png" alt="Ejemplo etiqueta strong" title="Ejemplo etiqueta strong">
+                            </td>
+                            <td>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong" target="_blank">Más información</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&lt;em&gt;</td>
+                            <td>Se utiliza para enfatizar el una parte del texto, se muestra en estilo italico.</td>
+                            <td><img src="../Imagenes/EjemploEm.png" alt="Ejemplo etiqueta em" title="Ejemplo etiqueta em"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;mark&gt;</td>
+                            <td>Se utiliza para resaltar o marcar texto en un documento. Generalmente se muestra con un fondo amarillo.</td>
+                            <td><img src="../Imagenes/EjemploMark.png" alt="Ejemplo etiqueta mark" title="Ejemplo etiqueta mark"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;q&gt;</td>
+                            <td>Se utiliza para marcar citas en línea en un texto. El texto entre &lt;q&gt; se considera una cita breve.</td>
+                            <td><img src="../Imagenes/EjemploQ.png" alt="Ejemplo etiqueta q" title="Ejemplo etiqueta q"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;blockquote&gt;</td>
+                            <td>Se utiliza para citar texto de una fuente externa o para resaltar una sección larga de texto citado.</td>
+                            <td><img src="../Imagenes/EjemploBlocqoute.png" alt="Ejemplo etiqueta blockqoute" title="Ejemplo etiqueta blockquote"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;cite&gt;</td>
+                            <td>Se utiliza para citar la fuente de una referencia o trabajo, como un libro o un artículo.</td>
+                            <td><img src="../Imagenes/EjemploCite.png" alt="Ejemplo etiqueta cite" title="Ejemplo etiqueta cite"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;dfn&gt;</td>
+                            <td>Se utiliza para marcar la definición de un término o una palabra.</td>
+                            <td><img src="../Imagenes/EjemploDfn.png" alt="Ejemplo etiqueta dfn" title="Ejemplo etiqueta dfn"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;abbr&gt;</td>
+                            <td>Se utiliza para marcar una abreviatura o acrónimo y proporcionar una descripción completa.</td>
+                            <td><img src="../Imagenes/EjemploAbbr.png" alt="Ejemplo etiqueta abbr" title="Ejemplo etiqueta abbr"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;small&gt;</td>
+                            <td>Se utiliza para representar texto en una fuente más pequeña, que generalmente indica un texto de menor importancia o notas legales.</td>
+                            <td><img src="../Imagenes/EjemploSmall.png" alt="Ejemplo etiqueta small" title="Ejemplo etiqueta small"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;ins&gt;</td>
+                            <td>Se utiliza para marcar el texto que ha sido insertado en una revisión de un documento.</td>
+                            <td><img src="../Imagenes/EjemploIns.png" alt="Ejemplo etiqueta ins" title="Ejemplo etiqueta ins"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;del&gt;</td>
+                            <td>Se utiliza para marcar el texto que ha sido eliminado o tachado en una revisión de un documento.</td>
+                            <td><img src="../Imagenes/EjemploDel.png" alt="Ejemplo etiqueta del" title="Ejemplo etiqueta del"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;s&gt;</td>
+                            <td>Se utiliza para representar texto que es irrelevante o que ha sido eliminado en una revisión de un documento.</td>
+                            <td><img src="../Imagenes/EjemploS.png" alt="Ejemplo etiqueta s" title="Ejemplo etiqueta s"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;code&gt;</td>
+                            <td>Se utiliza para mostrar código fuente en un documento HTML. Formatea el texto como código de máquina.</td>
+                            <td><img src="../Imagenes/EjemploCode.png" alt="Ejemplo etiqueta code" title="Ejemplo etiqueta code"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;samp&gt;</td>
+                            <td>Se utiliza para mostrar muestras de código o texto, como resultados de comandos de programación.</td>
+                            <td><img src="../Imagenes/EjemploSamp.png" alt="Ejemplo etiqueta samp" title="Ejemplo etiqueta samp"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;kbd&gt;</td>
+                            <td>Se utiliza para representar la entrada del teclado, como atajos de teclado o combinaciones de teclas.</td>
+                            <td><img src="../Imagenes/EjemploKbd.png" alt="Ejemplo etiqueta kbd" title="Ejemplo etiqueta kbd"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;pre&gt;</td>
+                            <td>Se utiliza para mostrar texto preformateado, conservando espacios en blanco y saltos de línea.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploPre.png" alt="Ejemplo etiqueta pre" title="Ejemplo etiqueta pre">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;address&gt;</td>
+                            <td>Se utiliza para describir información de contacto, como la dirección de correo electrónico o física de un autor o propietario de una página web.</td>
+                            <td><img src="../Imagenes/EjemploAddress.png" alt="Ejemplo etiqueta address" title="Ejemplo etiqueta address"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address">Más información</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="ElementosComplementarios">
+                <h2>Elementos Complementarios</h2>
+                <div class="navegaciónLocal">
+                    <a href="#ElementosPricipales">Ir a elementos Principales</a><br>
+                    <a href="#ElementosGenericos">Ir a elementos Genericos</a><br>
+                    <a href="#ElementosSemanticos">Ir a elementos Semanticos</a><br>
+                    <a href="#ElementosTexto">Ir a elementos de Manejo de texto</a><br>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col"><b>Elemento</b></th>
+                            <th scope="col"><b>Descripción</b></th>
+                            <th scope="col"><b>Ejemplo</b></th>
+                            <th scope="col"><b>Informacion Adicional</b></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&lt;img&gt;</td>
+                            <td>Se utiliza para incrustar imágenes en una página web.</td>
+                            <td><img src="../Imagenes/EjemploImg.png" alt="Ejemplo etiqueta img" title="Ejemplo etiqueta img"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;base&gt;</td>
+                            <td>El elemento &lt;base&gt; especifica una URL base para resolver todas las URL relativas en una página.</td>
+                            <td><img src="../Imagenes/EjemploBase.png" alt="Ejemplo etiqueta base" title="Ejemplo etiqueta base"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;link&gt;</td>
+                            <td>Se utiliza para vincular recursos externos a un documento HTML, como hojas de estilo CSS.</td>
+                            <td><img src="../Imagenes/EjemploLink.png" alt="Ejemplo etiqueta link" title="Ejemplo etiqueta link"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;meta&gt;</td>
+                            <td>Se utiliza para proporcionar metadatos sobre el documento, como descripciones y palabras clave.</td>
+                            <td><img src="../Imagenes/EjemploMeta.png" alt="Ejemplo etiqueta meta" title="Ejemplo etiqueta meta"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;noscript&gt;</td>
+                            <td>Proporciona contenido alternativo que se muestra si el navegador no admite JavaScript o si JavaScript está deshabilitado.</td>
+                            <td><img src="../Imagenes/EjemploNoscript.png" alt="Ejemplo etiqueta noscript" title="Ejemplo etiqueta noscript"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;script&gt;</td>
+                            <td>Se utiliza para incluir código JavaScript en una página web.</td>
+                            <td><img src="../Imagenes/EjemploScrip.png" alt="Ejemplo etiqueta script" title="Ejemplo etiqueta script"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;style&gt;</td>
+                            <td>El elemento &lt;style&gt; se utiliza para definir estilos CSS en línea en un documento HTML.</td>
+                            <td><img src="../Imagenes/EjemploStyle.png" alt="Ejemplo etiqueta style" title="Ejemplo etiqueta style"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;audio&gt;</td>
+                            <td>Se utiliza para incrustar audio en una página web, como música o efectos de sonido.</td>
+                            <td><img src="../Imagenes/EjemploAudio.png" alt="Ejemplo etiqueta audio" title="Ejemplo etiqueta audio"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;b&gt;</td>
+                            <td>Se utiliza para resaltar texto sin agregar énfasis semántico.</td>
+                            <td><img src="../Imagenes/EjemploB.png" alt="Ejemplo etiqueta b" title="Ejemplo etiqueta b"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;bdo&gt;</td>
+                            <td>Se utiliza para especificar la dirección de escritura del texto, como de derecha a izquierda en lenguajes como el árabe o el hebreo.</td>
+                            <td><img src="../Imagenes/EjemploBdo.png" alt="Ejemplo etiqueta bdo" title="Ejemplo etiqueta bdo"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;bdi&gt;</td>
+                            <td>Se utiliza para aislar un tramo de texto que puede tener una dirección de escritura diferente dentro de un contexto bidireccional.</td>
+                            <td><img src="../Imagenes/EjemploBdi.png" alt="Ejemplo etiqueta bdi" title="Ejemplo etiqueta bdi"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;button&gt;</td>
+                            <td>Se utiliza para crear un botón interactivo que los usuarios pueden hacer clic para realizar acciones en una página web.</td>
+                            <td><img src="../Imagenes/EjemploButton.png" alt="Ejemplo etiqueta button" title="Ejemplo etiqueta button"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;canvas&gt;</td>
+                            <td>Se utiliza para dibujar gráficos, gráficos y otros elementos visuales en una página web utilizando JavaScript.</td>
+                            <td><img src="../Imagenes/EjemploCanvas.png" alt="Ejemplo etiqueta canvas" title="Ejemplo etiqueta canvas"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;data&gt;</td>
+                            <td>Se utiliza para representar datos que pueden ser manipulados por scripts o estilos CSS.</td>
+                            <td><img src="../Imagenes/EjemploData.png" alt="Ejemplo etiqueta data" title="Ejemplo etiqueta data"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;datalist&gt;</td>
+                            <td>Se utiliza para proporcionar una lista de opciones para un elemento de entrada, como &lt;input&gt; o &lt;textarea&gt;.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploDatalist.png" alt="Ejemplo etiqueta datalist" title="Ejemplo etiqueta datalist">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;details&gt;</td>
+                            <td>Se utiliza para crear un elemento plegable que puede ocultar o mostrar contenido adicional cuando se hace clic.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploDetails.png" alt="Ejemplo etiqueta details" title="Ejemplo etiqueta details">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;dl&gt;</td>
+                            <td>Se utiliza para crear listas de definición, que constan de términos y sus definiciones correspondientes.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploDl.png" alt="Ejemplo etiqueta dl" title="Ejemplo etiqueta dl">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;embed&gt;</td>
+                            <td>Se utiliza para incrustar contenido multimedia, como audio o video, en una página web.</td>
+                            <td><img src="../Imagenes/EjemploEmbed.png" alt="Ejemplo etiqueta embed" title="Ejemplo etiqueta embed"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;fieldset&gt;</td>
+                            <td>Se utiliza para agrupar elementos de formulario relacionados y crear un borde alrededor de ellos.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploFieldset.png" alt="Ejemplo etiqueta fieldset" title="Ejemplo etiqueta fieldset">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;figure&gt;</td>
+                            <td>Se utiliza para encapsular contenido multimedia, como imágenes, gráficos o videos, junto con su descripción.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploFigure.png" alt="Ejemplo etiqueta figure" title="Ejemplo etiqueta figure">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;form&gt;</td>
+                            <td>Se utiliza para crear un formulario interactivo que permite a los usuarios enviar datos a un servidor web.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploForm.png" alt="Ejemplo etiqueta form" title="Ejemplo etiqueta form">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;hgroup&gt;</td>
+                            <td>Se utiliza para agrupar varios elementos de encabezado (&lt;h1&gt; a &lt;h6&gt;) que representan una entidad temática o un tema común.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploHgroup.png" alt="Ejemplo etiqueta hgroup" title="Ejemplo etiqueta hgroup">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;i&gt;</td>
+                            <td>Se utiliza para aplicar formato en cursiva a parte del texto sin agregar énfasis semántico.</td>
+                            <td><img src="../Imagenes/EjemploI.png" alt="Ejemplo etiqueta i" title="Ejemplo etiqueta i"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;iframe&gt;</td>
+                            <td>Se utiliza para incrustar contenido externo, como una página web o un video, dentro de una página web.</td>
+                            <td><img src="../Imagenes/EjemploIfream.png" alt="Ejemplo etiqueta iframe" title="Ejemplo etiqueta iframe"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;input&gt;</td>
+                            <td>Se utiliza para crear controles de entrada, como campos de texto, botones de radio o casillas de verificación, en formularios web.</td>
+                            <td><img src="../Imagenes/EjemploInput.png" alt="Ejemplo etiqueta input" title="Ejemplo etiqueta input"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;label&gt;</td>
+                            <td>Se utiliza para etiquetar elementos de formulario, proporcionando una descripción o nombre para el elemento.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploLabel.png" alt="Ejemplo etiqueta label" title="Ejemplo etiqueta label">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;map&gt;</td>
+                            <td>Se utiliza junto con la etiqueta &lt;area&gt; para definir mapas de imagen en una página web. Los mapas de imagen se utilizan para enlazar diferentes áreas de una imagen a diferentes URL.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploMap.png" alt="Ejemplo etiqueta map" title="Ejemplo etiqueta map">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;math&gt;</td>
+                            <td>Se utiliza para representar fórmulas matemáticas en una página web utilizando la notación de lenguaje de marcas de MathML.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploMath.png" alt="Ejemplo etiqueta math" title="Ejemplo etiqueta math">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/MathML/Element/math">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;menu&gt;</td>
+                            <td>Se utiliza para crear listas de comandos o acciones que los usuarios pueden realizar en una página web.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploMenu.png" alt="Ejemplo etiqueta menu" title="Ejemplo etiqueta menu">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;meter&gt;</td>
+                            <td>Se utiliza para medir y mostrar el progreso de un valor dentro de un rango conocido. Es útil para representar barras de progreso o medidores.</td>
+                            <td><img src="../Imagenes/EjemploMeter.png" alt="Ejemplo etiqueta meter" title="Ejemplo etiqueta meter"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;object&gt;</td>
+                            <td>Se utiliza para incrustar objetos multimedia, como videos, audio o aplicaciones, en una página web.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploObjet.png" alt="Ejemplo etiqueta object" title="Ejemplo etiqueta object">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;ol&gt;</td>
+                            <td>Se utiliza para crear listas ordenadas, donde los elementos se enumeran con números o letras.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploOl.png" alt="Ejemplo etiqueta ol" title="Ejemplo etiqueta ol">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;output&gt;</td>
+                            <td>Se utiliza para representar el resultado de un cálculo o una acción en un formulario HTML.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploOutput.png" alt="Ejemplo etiqueta output" title="Ejemplo etiqueta output">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;picture&gt;</td>
+                            <td>Se utiliza para especificar una imagen y sus diferentes versiones para distintas resoluciones y tamaños de pantalla.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploPicture.png" alt="Ejemplo etiqueta picture" title="Ejemplo etiqueta picture">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;progress&gt;</td>
+                            <td>Se utiliza para mostrar una barra de progreso que representa el estado de finalización de una tarea.</td>
+                            <td><img src="../Imagenes/EjemploProgress.png" alt="Ejemplo etiqueta progress" title="Ejemplo etiqueta progress"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;ruby&gt;</td>
+                            <td>Se utiliza para agregar anotaciones de pronunciación o explicaciones a caracteres o palabras, especialmente en textos en idiomas asiáticos.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploRuby.png" alt="Ejemplo etiqueta ruby" title="Ejemplo etiqueta ruby">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;select&gt;</td>
+                            <td>Se utiliza para crear listas desplegables, que permiten a los usuarios seleccionar una opción de un conjunto de opciones disponibles.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploSelect.png" alt="Ejemplo etiqueta select" title="Ejemplo etiqueta select">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;svg&gt;</td>
+                            <td>Se utiliza para agregar gráficos vectoriales escalables (SVG) a una página web. Los SVG son gráficos basados en vectores que se pueden escalar sin perder calidad.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploSvg.png" alt="Ejemplo etiqueta svg" title="Ejemplo etiqueta svg">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;table&gt;</td>
+                            <td>Se utiliza para crear tablas en una página web. Contiene filas y columnas con datos tabulares.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploTable.png" alt="Ejemplo etiqueta table" title="Ejemplo etiqueta table">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;template&gt;</td>
+                            <td>Se utiliza para almacenar contenido HTML que no se muestra en la página, pero que puede ser clonado y utilizado con JavaScript.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploTemplate.png" alt="Ejemplo etiqueta template" title="Ejemplo etiqueta template">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;textarea&gt;</td>
+                            <td>Se utiliza para crear áreas de texto multilinea en formularios donde los usuarios pueden ingresar texto.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploTextarea.png" alt="Ejemplo etiqueta textarea" title="Ejemplo etiqueta textarea">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;time&gt;</td>
+                            <td>Se utiliza para representar una fecha o una hora en un formato legible por humanos, que también puede ser procesado por máquinas.</td>
+                            <td><img src="../Imagenes/EjemploTime.png" alt="Ejemplo etiqueta time" title="Ejemplo etiqueta time"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;u&gt;</td>
+                            <td>Se utiliza para aplicar subrayado al texto, pero su uso se desaconseja debido a que no aporta significado semántico.</td>
+                            <td><img src="../Imagenes/EjemploU.png" alt="Ejemplo etiqueta u" title="Ejemplo etiqueta u"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;ul&gt;</td>
+                            <td>Se utiliza para crear listas no ordenadas, donde los elementos se presentan con viñetas o puntos.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploUl.png" alt="Ejemplo etiqueta ul" title="Ejemplo etiqueta ul">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;var&gt;</td>
+                            <td>Se utiliza para representar variables en matemáticas o programación en un texto.</td>
+                            <td><img src="../Imagenes/EjemploVar.png" alt="Ejemplo etiqueta var" title="Ejemplo etiqueta var"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;video&gt;</td>
+                            <td>Se utiliza para incrustar videos en una página web. Permite reproducir contenido de video en línea.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploVideo.png" alt="Ejemplo etiqueta video" title="Ejemplo etiqueta video">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;a&gt;</td>
+                            <td>Se utiliza para crear enlaces o hipervínculos a otras páginas web, recursos, o direcciones de correo electrónico.</td>
+                            <td><img src="../Imagenes/EjemploA.png" alt="Ejemplo etiqueta a" title="Ejemplo etiqueta a"></td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;area&gt;</td>
+                            <td>Se utiliza junto con el elemento &lt;map&gt; para definir áreas sensibles en una imagen, que se pueden hacer clic para enlazar a otros recursos.</td>
+                            <td>
+                                <img src="../Imagenes/EjemploArea.png" alt="Ejemplo etiqueta area" title="Ejemplo etiqueta area">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;li&gt;</td>
+                            <td>Elemento con el cual se define los elementos de una lista</td>
+                            <td>
+                                <img src="../Imagenes/EjemploLi.png" alt="Ejemplo etiqueta li" title="Ejemplo etiqueta li">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;thead&gt;</td>
+                            <td>Elemento con el cual se define el encabezado de una tabla</td>
+                            <td>
+                                <img src="../Imagenes/EjemploThead.png" alt="Ejemplo etiqueta thead" title="Ejemplo etiqueta thead">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;tbody&gt;</td>
+                            <td>Elemento con el cual se define el cuerpo de la tabla</td>
+                            <td>
+                                <img src="../Imagenes/EjemploTbody.png" alt="Ejemplo etiqueta tbody" title="Ejemplo etiqueta tbody">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;tr&gt;</td>
+                            <td>Elemento con el cual se define una fila de la tabla</td>
+                            <td>
+                                <img src="../Imagenes/EjemploTr.png" alt="Ejemplo etiqueta tr" title="Ejemplo etiqueta tr">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;th&gt;</td>
+                            <td>Elemento con el cual se define los campos del encabezado de la tabla</td>
+                            <td>
+                                <img src="../Imagenes/EjemploTh.png" alt="Ejemplo etiqueta th" title="Ejemplo etiqueta th">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th">Más información</a></td>
+                        </tr>
+                        <tr>
+                            <td>&lt;td&gt;</td>
+                            <td>Elemento con el cual se define los datos en los campos de una fila de una tabla</td>
+                            <td>
+                                <img src="../Imagenes/EjemploTd.png" alt="Ejemplo etiqueta td" title="Ejemplo etiqueta td">
+                            </td>
+                            <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td">Más información</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </article>
+    </main>
+</body>
+</html>
